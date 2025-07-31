@@ -442,19 +442,29 @@ Em resumo, o `ExercisesOperators` é um projeto "standalone" que não requer inf
 
 ---
 
-## 📜 Licença e Aspectos Legais
+📜 Licença
+Este projeto está licenciado sob a Licença MIT - uma das licenças de código aberto mais permissivas e amplamente utilizadas.
+O que isso significa:
 
-Este projeto não possui um arquivo de licença explícito (`LICENSE` ou `LICENSE.md`) no repositório original.
+✅ Uso livre: Pode usar o código para qualquer propósito
+✅ Modificação: Pode alterar e adaptar o código conforme necessário
+✅ Distribuição: Pode compartilhar o código original ou modificado
+✅ Uso comercial: Pode usar em projetos comerciais
+✅ Uso privado: Pode usar em projetos pessoais ou internos
 
-No contexto de projetos de código aberto no GitHub, a ausência de uma licença explícita implica que, por padrão, o código é regido pelos termos de direitos autorais padrão, o que significa que outros usuários não têm permissão para usar, distribuir, modificar ou fazer engenharia reversa do seu trabalho.
+Única condição:
 
-Para projetos de código aberto, é altamente recomendável adicionar uma licença de código aberto (como MIT, Apache 2.0, GPLv3, etc.) para definir claramente como o código pode ser usado e contribuído. Isso facilita a colaboração e o reuso por parte da comunidade.
+📋 Atribuição: Deve manter o aviso de copyright e a licença nos arquivos
+
+Para desenvolvedores:
+Esta licença facilita a colaboração e o reuso por parte da comunidade, sendo ideal para projetos educacionais e de aprendizado como este repositório de exercícios Java.
+Veja o arquivo [LICENSE](/LICENSE) para o texto completo da licença.
 
 ---
 
 ## 👥 Desenvolvedor
 
-O projeto `ExercisesOperators` foi concebido e desenvolvido principalmente por:
+O projeto `ExercisesOperators` foi concebido e desenvolvido por:
 
 *   **José Enoque**
     *   Entusiasta de desenvolvimento Java e automação.
@@ -483,16 +493,13 @@ Aqui estão algumas perguntas frequentes sobre o projeto `ExercisesOperators`:
 **4. O projeto tem testes automatizados?**
     Não, este projeto não inclui uma suíte de testes automatizada (como JUnit). Ele é focado no aprendizado interativo e na validação manual através da execução dos exercícios no console.
 
-**5. Posso contribuir com novos exercícios ou melhorias?**
-    Com certeza! Incentivamos a contribuição. Por favor, consulte a seção [🤝 Contribuição (Nível Avançado)](#-contribuição-nível-avançado) para um guia detalhado sobre como contribuir.
-
-**6. Encontrei um bug ou tenho uma sugestão de nova funcionalidade. Onde posso reportar?**
+**5. Encontrei um bug ou tenho uma sugestão de nova funcionalidade. Onde posso reportar?**
     Por favor, abra uma [Issue no GitHub](https://github.com/ESousa97/ExercisesOperators/issues) para relatar bugs ou sugerir funcionalidades. Descreva o problema ou a ideia com o máximo de detalhes possível.
 
-**7. O projeto possui alguma interface gráfica?**
+**6. O projeto possui alguma interface gráfica?**
     Não, o projeto é totalmente baseado em console. A interação ocorre através de entrada de texto e saída de texto no terminal. Isso foi uma decisão de design para focar nos fundamentos da lógica de programação sem a complexidade de uma interface gráfica.
 
-**8. Este projeto é adequado para iniciantes em Java?**
+**7. Este projeto é adequado para iniciantes em Java?**
     Sim, este projeto foi projetado especificamente para iniciantes em Java que desejam praticar e solidificar sua compreensão de operadores, tipos de dados e estruturas condicionais básicas. O sistema de menu interativo facilita a navegação e o aprendizado.
 
 ---
