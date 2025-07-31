@@ -447,9 +447,13 @@ Este projeto está licenciado sob a Licença MIT - uma das licenças de código 
 O que isso significa:
 
 ✅ Uso livre: Pode usar o código para qualquer propósito
+
 ✅ Modificação: Pode alterar e adaptar o código conforme necessário
+
 ✅ Distribuição: Pode compartilhar o código original ou modificado
+
 ✅ Uso comercial: Pode usar em projetos comerciais
+
 ✅ Uso privado: Pode usar em projetos pessoais ou internos
 
 Única condição:
