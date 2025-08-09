@@ -520,5 +520,4 @@ Para dúvidas, suporte ou discussões sobre o projeto `ExercisesOperators`, util
     *   **LinkedIn:** [José Enoque](https://www.linkedin.com/in/enoque-sousa-bb89aa168/)
     *   **GitHub:** [ESousa97](https://github.com/ESousa97)
 
-
 > ✨ **Criado em:** 29 de abr. de 2025 às 22:19
