@@ -1,6 +1,14 @@
-// 1. Crie um programa que realize a média de duas notas decimais e exiba o resultado.
+package exercises;
 
+/**
+ * Calcula a média aritmética de duas notas decimais.
+ * <p>
+ * Demonstra o uso de variáveis {@code double} e o operador
+ * de divisão para cálculos com números de ponto flutuante.
+ * </p>
+ */
 public class MediaNota {
+
     public static void main(String[] args) {
         double nota1 = 9.7;
         double nota2 = 8.5;

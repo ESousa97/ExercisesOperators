@@ -1,6 +1,15 @@
+package exercises;
+
 import java.util.Scanner;
 
+/**
+ * Calcula a média de três notas e determina a situação do aluno.
+ * <p>
+ * Classificações: Aprovado (≥ 7), Recuperação (≥ 5) ou Reprovado (< 5).
+ * </p>
+ */
 public class MediaAluno {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -13,8 +22,8 @@ public class MediaAluno {
         System.out.print("Nota 3: ");
         double nota3 = scanner.nextDouble();
 
-        double media = (nota1 + nota2 + nota3) /3;
-        System.out.println("Média: " + media);
+        double media = (nota1 + nota2 + nota3) / 3;
+        System.out.printf("Média: %.2f%n", media);
 
         if (media >= 7) {
             System.out.println("Aprovado");

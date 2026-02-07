@@ -1,6 +1,16 @@
+package exercises;
+
 import java.util.Scanner;
 
+/**
+ * Compara dois números inteiros informados pelo usuário.
+ * <p>
+ * Verifica se os números são iguais ou diferentes utilizando
+ * operadores relacionais.
+ * </p>
+ */
 public class ComparacaoSimples {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -11,7 +21,7 @@ public class ComparacaoSimples {
         int num2 = scanner.nextInt();
 
         if (num1 == num2) {
-            System.out.println("O número " + num1 + " é igual ao número" + num2);
+            System.out.println("O número " + num1 + " é igual ao número " + num2);
         } else {
             System.out.println("O número " + num1 + " é diferente do número " + num2);
         }
