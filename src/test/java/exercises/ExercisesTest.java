@@ -155,7 +155,7 @@ class ExercisesTest {
                 () -> AnaliseNumero.main(new String[]{}));
         assertTrue(output.contains("PAR"), "30 deve ser PAR");
         assertTrue(output.contains("múltiplo de 5 e de 3"), "30 deve ser múltiplo de 3 e 5");
-        assertFalse(output.contains("é maior que 100"), "30 não é maior que 100");
+        assertTrue(output.contains("não é maior que 100"), "30 não é maior que 100");
     }
 
     @Test

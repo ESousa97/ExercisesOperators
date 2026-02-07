@@ -1,36 +1,36 @@
-# Política de Segurança
+# Security Policy
 
-## Versões Suportadas
+## Supported Versions
 
-| Versão | Suporte            |
-| ------ | ------------------ |
-| 1.0.x  | :white_check_mark: |
+| Version | Support            |
+| ------- | ------------------ |
+| 1.0.x   | :white_check_mark: |
 
-## Reportando Vulnerabilidades
+## Reporting Vulnerabilities
 
-Se você descobrir uma vulnerabilidade de segurança neste projeto, por favor reporte de forma responsável:
+If you discover a security vulnerability in this project, please report it responsibly:
 
-1. **NÃO** abra uma Issue pública
-2. Envie um e-mail ou mensagem privada para o mantenedor via [LinkedIn](https://www.linkedin.com/in/enoque-sousa-bb89aa168/)
-3. Inclua uma descrição detalhada da vulnerabilidade
-4. Se possível, inclua passos para reproduzir
+1. **DO NOT** open a public Issue
+2. Send an email or private message to the maintainer via [LinkedIn](https://www.linkedin.com/in/enoque-sousa-bb89aa168/)
+3. Include a detailed description of the vulnerability
+4. If possible, include steps to reproduce
 
-### O que esperar
+### What to Expect
 
-- **Confirmação**: Resposta em até 48 horas após o relato
-- **Avaliação**: Análise da vulnerabilidade em até 7 dias
-- **Correção**: Patch publicado assim que possível
-- **Crédito**: Reconhecimento público (se desejado) após a correção
+- **Acknowledgment**: Response within 48 hours of the report
+- **Assessment**: Vulnerability analysis within 7 days
+- **Fix**: Patch published as soon as possible
+- **Credit**: Public recognition (if desired) after the fix
 
-## Práticas de Segurança
+## Security Practices
 
-Este projeto segue as seguintes práticas:
+This project follows these practices:
 
-- **Dependabot** ativado para atualizações automáticas de dependências
-- **CodeQL** para análise estática de segurança via GitHub Actions
-- **Sem segredos hardcoded** no código-fonte
-- **Dependências atualizadas** regularmente
+- **Dependabot** enabled for automatic dependency updates
+- **CodeQL** for static security analysis via GitHub Actions
+- **No hardcoded secrets** in source code
+- **Dependencies updated** regularly
 
-## Escopo
+## Scope
 
-Como este é um projeto educacional baseado em console (sem rede, sem banco de dados, sem autenticação real), o risco de segurança é limitado. No entanto, mantemos as boas práticas para fins didáticos e como exemplo de governança responsável.
+As this is a console-based educational project (no network, no database, no real authentication), the security risk is limited. However, we maintain best practices for educational purposes and as an example of responsible governance.

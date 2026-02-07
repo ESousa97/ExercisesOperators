@@ -1,5 +1,6 @@
 package exercises;
 
+import java.nio.charset.StandardCharsets;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -13,7 +14,7 @@ import java.util.Scanner;
  */
 public class SistemaExerciciosCompleto {
 
-    private static final Scanner SCANNER = new Scanner(System.in);
+    private static final Scanner SCANNER = new Scanner(System.in, StandardCharsets.UTF_8);
 
     public static void main(String[] args) {
         boolean continuar = true;
@@ -564,6 +565,7 @@ public class SistemaExerciciosCompleto {
                 case 1 -> calcularDesconto();
                 case 2 -> calcularAcrescimo();
                 case 3 -> calcularPorcentagemSimples();
+                default -> System.out.println("Opção inválida!");
             }
 
             continuarCalculo = perguntarContinuar("Deseja fazer outro cálculo?");
@@ -664,6 +666,7 @@ public class SistemaExerciciosCompleto {
             switch (opcao) {
                 case 1 -> simuladorDecisoes();
                 case 2 -> demonstracaoTeorica();
+                default -> System.out.println("Opção inválida!");
             }
 
             continuarTeste = perguntarContinuar("Deseja testar outros operadores lógicos?");

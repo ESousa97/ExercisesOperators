@@ -1,5 +1,6 @@
 package exercises;
 
+import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
 /**
@@ -12,7 +13,7 @@ import java.util.Scanner;
 public class ComparacaoSimples {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in, StandardCharsets.UTF_8);
 
         System.out.print("Digite o primeiro número: ");
         int num1 = scanner.nextInt();
