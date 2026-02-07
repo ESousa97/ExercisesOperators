@@ -7,6 +7,7 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
+import java.nio.charset.StandardCharsets;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -24,28 +25,28 @@ class ExercisesTest {
     private String captureOutput(Runnable program) {
         PrintStream originalOut = System.out;
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        System.setOut(new PrintStream(baos));
+        System.setOut(new PrintStream(baos, true, StandardCharsets.UTF_8));
         try {
             program.run();
         } finally {
             System.setOut(originalOut);
         }
-        return baos.toString();
+        return baos.toString(StandardCharsets.UTF_8);
     }
 
     private String captureOutputWithInput(String input, Runnable program) {
         PrintStream originalOut = System.out;
         InputStream originalIn = System.in;
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        System.setOut(new PrintStream(baos));
-        System.setIn(new ByteArrayInputStream(input.getBytes()));
+        System.setOut(new PrintStream(baos, true, StandardCharsets.UTF_8));
+        System.setIn(new ByteArrayInputStream(input.getBytes(StandardCharsets.UTF_8)));
         try {
             program.run();
         } finally {
             System.setOut(originalOut);
             System.setIn(originalIn);
         }
-        return baos.toString();
+        return baos.toString(StandardCharsets.UTF_8);
     }
 
     // ==================== MediaNota ====================

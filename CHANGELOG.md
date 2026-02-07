@@ -1,47 +1,47 @@
 # Changelog
 
-Todas as alterações notáveis neste projeto serão documentadas neste arquivo.
+All notable changes to this project will be documented in this file.
 
-O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/),
-e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR/).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [1.0.0] - 2026-02-06
 
-### Adicionado
-- Estrutura Maven padrão (`pom.xml`) com JDK 17
-- Pacote Java `exercises` para todas as classes
-- Testes unitários com JUnit 5 (`ExercisesTest.java`)
-- Cobertura de código com JaCoCo
-- Análise estática com Checkstyle e SpotBugs
-- CI/CD com GitHub Actions (`ci.yml`, `codeql.yml`)
-- Dependabot para atualização automática de dependências
-- Templates de Issue (Bug Report, Feature Request)
-- Template de Pull Request
-- Documentação: `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, `CHANGELOG.md`
-- `.editorconfig` para consistência de formatação
-- `.gitattributes` para normalização de line endings
-- CSpell para verificação ortográfica
-- Badges de qualidade no README
+### Added
+- Maven standard structure (`pom.xml`) with JDK 17
+- Java package `exercises` for all classes
+- Unit tests with JUnit 5 (`ExercisesTest.java`)
+- Code coverage with JaCoCo
+- Static analysis with Checkstyle and SpotBugs
+- CI/CD with GitHub Actions (`ci.yml`, `codeql.yml`)
+- Dependabot for automatic dependency updates
+- Issue templates (Bug Report, Feature Request)
+- Pull Request template
+- Documentation: `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, `CHANGELOG.md`
+- `.editorconfig` for formatting consistency
+- `.gitattributes` for line ending normalization
+- CSpell for spell checking
+- Quality badges in README
 
-### Alterado
-- Migração de estrutura flat (`src/`) para Maven (`src/main/java/exercises/`)
-- Todas as classes agora possuem `package exercises;`
-- `SistemaExerciciosCompleto` usa `switch` expressions (Java 14+)
-- Corrigidos typos: "shooping" → "shopping", "ENNTER" → "ENTER"
-- Corrigido espaço ausente em `ComparacaoSimples` ("ao número" faltava espaço)
-- `Scanner` global renomeada para constante `SCANNER`
-- `OperadoresPrimitivos` agora imprime valores (antes apenas declarava)
-- `.gitignore` atualizado com seções organizadas e cobertura de Maven/IDE
+### Changed
+- Migration from flat structure (`src/`) to Maven (`src/main/java/exercises/`)
+- All classes now have `package exercises;`
+- `SistemaExerciciosCompleto` uses `switch` expressions (Java 14+)
+- Fixed typos: "shooping" -> "shopping", "ENNTER" -> "ENTER"
+- Fixed missing space in `ComparacaoSimples` ("ao numero" was missing a space)
+- Global `Scanner` renamed to constant `SCANNER`
+- `OperadoresPrimitivos` now prints values (previously only declared them)
+- `.gitignore` updated with organized sections and Maven/IDE coverage
 
-### Removido
-- `Main.java` (template padrão do IntelliJ, nunca utilizado)
-- `ExercisesOperators.iml` (substituído pelo Maven `pom.xml`)
+### Removed
+- `Main.java` (default IntelliJ template, never used)
+- `ExercisesOperators.iml` (replaced by Maven `pom.xml`)
 
 ## [0.1.0] - 2025-04-29
 
-### Adicionado
-- Versão inicial com 13 exercícios individuais
-- Sistema interativo `SistemaExerciciosCompleto` com menus
-- Exercícios de operadores básicos, interativos, conversores e especiais
-- README completo com documentação detalhada
-- Licença MIT
+### Added
+- Initial version with 13 individual exercises
+- Interactive system `SistemaExerciciosCompleto` with menus
+- Exercises for basic operators, interactive exercises, converters and special operators
+- Complete README with detailed documentation
+- MIT License
