@@ -4,6 +4,7 @@
 [![CodeQL](https://github.com/ESousa97/ExercisesOperators/actions/workflows/codeql.yml/badge.svg)](https://github.com/ESousa97/ExercisesOperators/actions/workflows/codeql.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Java](https://img.shields.io/badge/Java-17+-orange.svg)](https://openjdk.org/)
+[![CodeFactor](https://www.codefactor.io/repository/github/esousa97/exercisesoperators/badge)](https://www.codefactor.io/repository/github/esousa97/exercisesoperators)
 [![Dependabot](https://img.shields.io/badge/Dependabot-enabled-blue.svg)](https://github.com/ESousa97/ExercisesOperators/security/dependabot)
 
 Interactive platform to practice operators and programming logic in Java.

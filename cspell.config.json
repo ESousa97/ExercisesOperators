@@ -47,7 +47,8 @@
     "operadoresdeincremento",
     "operadoreslogicos",
     "operadoresprimitivos",
-    "porcentagem"
+    "porcentagem",
+    "codefactor"
   ],
   "ignorePaths": [
     "target/",
