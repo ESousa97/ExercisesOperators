@@ -27,7 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Migration from flat structure (`src/`) to Maven (`src/main/java/exercises/`)
 - All classes now have `package exercises;`
 - `SistemaExerciciosCompleto` uses `switch` expressions (Java 14+)
-- Fixed typos: "shooping" -> "shopping", "ENNTER" -> "ENTER"
+- Fixed typos: "shopping" -> "shopping", "ENTER" -> "ENTER"
 - Fixed missing space in `ComparacaoSimples` ("ao numero" was missing a space)
 - Global `Scanner` renamed to constant `SCANNER`
 - `OperadoresPrimitivos` now prints values (previously only declared them)
