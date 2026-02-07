@@ -721,7 +721,7 @@ public class SistemaExerciciosCompleto {
         System.out.println("   !false = " + (!f1));
     }
 
-    // ==================== MÉTODOS AUXILIARES ====================
+    // ==================== AUXILIARES ====================
 
     private static int lerOpcao() {
         int opcao = -1;
