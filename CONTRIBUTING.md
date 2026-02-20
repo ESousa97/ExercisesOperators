@@ -3,6 +3,14 @@
 Thanks for your interest in contributing! This guide explains how to
 participate in the project.
 
+## Repository Status (Archived)
+
+This repository is no longer actively maintained.
+
+- It remains public for study and reference purposes only.
+- There is no guarantee of response, review, acceptance, or fixes.
+- New contributions may remain unanswered.
+
 ## Conventional Commits
 
 We use [Conventional Commits](https://www.conventionalcommits.org/). Every
@@ -106,4 +114,4 @@ with as much detail as possible.
 
 ## Questions?
 
-Open an [Issue](https://github.com/ESousa97/ExercisesOperators/issues) or reach out to the maintainer.
+You may open an [Issue](https://github.com/ESousa97/ExercisesOperators/issues), but this archived project does not guarantee response.

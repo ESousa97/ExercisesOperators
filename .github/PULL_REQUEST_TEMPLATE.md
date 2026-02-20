@@ -1,3 +1,8 @@
+> [!WARNING]
+> **Repositório arquivado para estudo.**
+> Este projeto não está mais ativo e permanece público apenas para fins de estudo.
+> Não há garantia de resposta, revisão, aprovação ou correção.
+
 ## Descrição
 
 Descreva brevemente as alterações realizadas neste PR.

@@ -6,6 +6,11 @@ labels: bug
 assignees: ''
 ---
 
+> [!WARNING]
+> **Repositório arquivado para estudo.**
+> Este projeto não está mais ativo e permanece público apenas para fins de estudo.
+> Não há garantia de resposta, revisão ou correção.
+
 ## Descrição do Bug
 Uma descrição clara e concisa do problema.
 

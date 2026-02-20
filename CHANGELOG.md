@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.0.1] - 2026-02-19
+
+### Changed
+- Repository marked as archived for study/reference purposes in governance documents
+- Dependabot PR creation disabled (`open-pull-requests-limit: 0`)
+- Issue and Pull Request templates updated with visible archived warning
+- GitHub Issues configured to disable blank issues and show archived-project notice
+
 ## [1.0.0] - 2026-02-06
 
 ### Added

@@ -1,10 +1,16 @@
 # Security Policy
 
+## Repository Status (Archived)
+
+This repository is archived and no longer active.
+It remains public only for study purposes.
+There is no guarantee of response, review, or fix for reported vulnerabilities.
+
 ## Supported Versions
 
 | Version | Support            |
 | ------- | ------------------ |
-| 1.0.x   | :white_check_mark: |
+| None    | :x:                |
 
 ## Reporting Vulnerabilities
 
@@ -17,10 +23,8 @@ If you discover a security vulnerability in this project, please report it respo
 
 ### What to Expect
 
-- **Acknowledgment**: Response within 48 hours of the report
-- **Assessment**: Vulnerability analysis within 7 days
-- **Fix**: Patch published as soon as possible
-- **Credit**: Public recognition (if desired) after the fix
+- Reports may not receive a response.
+- No assessment or fix SLA is provided for this archived project.
 
 ## Security Practices
 
